@@ -1,1 +1,1 @@
-This is course priject for cs422 Intro to Machine Learning
+This is a course project for cs422 Intro to Machine Learning
