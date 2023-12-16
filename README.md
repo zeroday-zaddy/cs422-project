@@ -1,34 +1,29 @@
-This is a course project for cs422 Intro to Machine Learning
-Semester Project
-Links:
-https://www.unite.ai/420-joint-venture-of-cannabis-and-machine-learning/
-https://www.kaggle.com/datasets/gthrosa/leafly-cannabis-strains-metadata
-https://www.dolthub.com/blog/2020-04-20-cannabis-data-sets/#kushy
-https://www.dolthub.com/repositories/Liquidata/cannabis-testing-wa/data/master/tests
+# Cannabis Strain Prediction Readme #
 
+This repository contains code for predicting the effects of cannabis strains based on their terpene composition. The primary predictive model used is Logistic Regression, trained on a dataset sourced from Leafly.
 
-Datasets:
-Cannabis Species EDA and Models Pipeline
-Leafly Strains
-Terpene Profiler  Example Features from terpene-profiler (Github)
+1. Program: project.ipynb
 
-Problem:
-Background of the problem:
-Use terpenes and other scientific features of cannabis strains to predict qualitative effects (given through a potency rating) as described by sites such as Leafly (other sites to be added) 
-Description of learning problem:
-Supervised learning problem.
+2. File used: strains_cleaned.csv
 
-Hypothesis:
-Terpene profiles and other chemical makeup information has a direct effect on cannabinoid user consciousness during their experience.
+3. Dependencies:
+pandas
+numpy
+scikit-learn
 
-Data to use:
-Leafly Strains
-Example Features from terpene-profiler (Github)
+4. Clone the repository to your local machine:
+git clone https://github.com/zeroday-zaddy/cs422-project.git
 
-Experiment:
-Use decision trees (initially)/ random forest to see if the problem is applicable to machine learning. In this stage we would predict the main qualitative Leafly effect. Then later we will use multiclass prediction with more complex model algorithms for whether the Leafly effect is there or not (multiclass). For example neural networks.
+5. In your Python environment, you can use the predict_effect function to predict the effects of a given terpene:
 
-Results:
+Terpenes:
+Caryophyllene
+Limonene
+Linalool
+Myrcene
+Ocimene
+Pinene
+Terpinolene
 
-
-Hypothesis
+# Example usage:
+terpene_input = 'Caryophyllene'
